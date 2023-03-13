@@ -2,7 +2,7 @@ import headshot from "../images/headshot.png";
 
 const Header = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center">
+    <div className="d-flex flex-wrap justify-content-center align-items-center">
       <h1>Jon Garnett-Smith</h1>
       <br></br>
       <img
