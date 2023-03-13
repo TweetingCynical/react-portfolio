@@ -1,7 +1,7 @@
 import GithubRepos from "./GithubRepos";
 
 const Cards = () => {
-  return <div>{GithubRepos[0]}</div>;
+  return <div>{<GithubRepos />}</div>;
 };
 
 export default Cards;
