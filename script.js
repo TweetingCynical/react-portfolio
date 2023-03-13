@@ -1,10 +1,15 @@
+//
+let repos;
 const url =
   "https://api.github.com/search/repositories?q=TweetingCynical+in:name";
 
-function getGithubRepos() {
-  const githubData = fetch(url).then((response) => response.json());
-  console.log(getGithubRepos);
-  return githubData;
-}
+const getGithubRepo = async () => {
+  const response = await fetch(url);
+  const data = await response.json();
+  return data.items;
+};
 
-getGithubRepos();
+getGithubRepo().then((data) => {
+  repos = data.filter((repo) => repo.topics.includes("portfolio-ready"));
+  repos.sort((a, b) => b.id - a.id);
+});

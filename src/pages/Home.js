@@ -1,5 +1,12 @@
+import Card from "../components/Card";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      Test
+      <Card />
+    </div>
+  );
 };
 
 export default Home;
