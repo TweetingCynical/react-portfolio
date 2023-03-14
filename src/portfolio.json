@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Pokémon Top Trumps",
+    "repo": "https://github.com/TweetingCynical/pokemon-top-trumps",
+    "image": "https://TweetingCynical.github.io/pokemon-top-trumps/assets/portfolio.png",
+    "alt": "Screenshot of working deployment",
+    "deployed": "https://TweetingCynical.github.io/pokemon-top-trumps/",
+    "description": "A simple Pokemon Top Trumps game app which allows users to pit themselves against the CPU, using JavaScript, jQuery and CSS to interact with the html elements on the page."
+  },
+  {
+    "id": 2,
+    "title": "Code Quiz",
+    "repo": "https://github.com/TweetingCynical/code-quiz",
+    "image": "https://TweetingCynical.github.io/code-quiz/assets/portfolio.png",
+    "alt": "Screenshot of working deployment",
+    "deployed": "https://TweetingCynical.github.io/code-quiz/",
+    "description": "A simple coding quiz app which offers multiple choice answers, using JavaScript and CSS to interact with the html elements on the page."
+  },
+  {
+    "id": 3,
+    "title": "Weather App",
+    "repo": "https://github.com/TweetingCynical/weather-app",
+    "image": "https://TweetingCynical.github.io/weather-app/assets/portfolio.png",
+    "alt": "Screenshot of working deployment",
+    "deployed": "https://TweetingCynical.github.io/weather-app/",
+    "description": "A simple weather forecasy app which allows users to search for the weather in a chosen city, using JavaScript and CSS to interact with the html elements on the page."
+  },
+  {
+    "id": 4,
+    "title": "Daily Planner",
+    "repo": "https://github.com/TweetingCynical/daily-planner-app",
+    "image": "https://TweetingCynical.github.io/daily-planner-app/assets/portfolio.png",
+    "alt": "Screenshot of working deployment",
+    "deployed": "https://TweetingCynical.github.io/daily-planner-app/",
+    "description": "A simple daily planner app which allows users to save task details on an hourly basis, using JavaScript and CSS to interact with the html elements on the page."
+  },
+  {
+    "id": 5,
+    "title": "Key Rotation Cipher",
+    "repo": "https://github.com/TweetingCynical/key-rotation-cipher",
+    "image": "https://TweetingCynical.github.io/key-rotation-cipher/assets/portfolio.png",
+    "alt": "Screenshot of working deployment",
+    "deployed": "https://TweetingCynical.github.io/key-rotation-cipher/",
+    "description": "A rotating Vigenere cipher, interacting with the html elements, and collecting user inputs from a series of validated prompts."
+  },
+  {
+    "id": 6,
+    "title": "README Generator",
+    "repo": "https://github.com/TweetingCynical/readme-generator",
+    "image": "https://tweetingcynical.github.io/readme-generator/assets/portfolio.com",
+    "alt": "Screenshot of working deployment",
+    "deployed": "https://tweetingcynical.github.io/readme-generator/",
+    "description": "A simple command line application for generating a readme markdown file from user input facilited by the Inquirer package. Note: This readme file was created using this README generator."
+  }
+]
