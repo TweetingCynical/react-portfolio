@@ -8,7 +8,7 @@ const Header = () => {
       <img
         src={headshot}
         alt="Headshot of Jon Garnett-Smith"
-        className="border border-primary shadow-lg rounded-circle headshot m-2 p-2"
+        className="bg-purple shadow-lg rounded-circle headshot m-2 p-2"
       />
     </div>
   );
