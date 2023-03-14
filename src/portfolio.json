@@ -48,7 +48,7 @@
     "id": 6,
     "title": "README Generator",
     "repo": "https://github.com/TweetingCynical/readme-generator",
-    "image": "https://tweetingcynical.github.io/readme-generator/assets/portfolio.com",
+    "image": "https://tweetingcynical.github.io/readme-generator/assets/portfolio.png",
     "alt": "Screenshot of working deployment",
     "deployed": "https://tweetingcynical.github.io/readme-generator/",
     "description": "A simple command line application for generating a readme markdown file from user input facilited by the Inquirer package. Note: This readme file was created using this README generator."

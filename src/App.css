@@ -8,3 +8,20 @@
   color: white;
   border: 2px solid darkslategrey;
 }
+
+.portfolio-image {
+  max-height: 300px;
+  max-width: 600px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.portfolio-nav {
+  display: flex;
+  flex-wrap: wrap;
+}

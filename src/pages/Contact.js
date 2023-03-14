@@ -19,40 +19,40 @@ const Contact = () => {
         choice from the links below:
       </p>
       <br></br>
-      <div>
-        <span className="bg-purple rounded shadow-lg p-1">
-          <FontAwesomeIcon icon={faGithub} />{" "}
-          <a
-            href="https://github.com/TweetingCynical"
-            className="text-light text-decoration-none"
-          >
-            Github
-          </a>
-        </span>
-      </div>
-      <br></br>
-      <div>
-        <span className="bg-purple rounded shadow-lg p-1">
-          <FontAwesomeIcon icon={faLinkedin} />{" "}
-          <a
-            href="https://www.linkedin.com/in/jon-garnett-smith-b18780261/"
-            className="text-light text-decoration-none"
-          >
-            LinkedIn
-          </a>
-        </span>
-      </div>
-      <br></br>
-      <div>
-        <span className="bg-purple rounded shadow-lg p-1">
-          <FontAwesomeIcon icon={faTwitter} />{" "}
-          <a
-            href="https://twitter.com/tweetingcynical"
-            className="text-light text-decoration-none"
-          >
-            Twitter
-          </a>
-        </span>
+      <div className="portfolio-nav justify-content-center">
+        <div>
+          <span className="bg-purple rounded shadow-lg m-1 p-2">
+            <FontAwesomeIcon icon={faGithub} />{" "}
+            <a
+              href="https://github.com/TweetingCynical"
+              className="text-light text-decoration-none"
+            >
+              Github
+            </a>
+          </span>
+        </div>
+        <div>
+          <span className="bg-purple rounded shadow-lg m-1 p-2">
+            <FontAwesomeIcon icon={faLinkedin} />{" "}
+            <a
+              href="https://www.linkedin.com/in/jon-garnett-smith-b18780261/"
+              className="text-light text-decoration-none"
+            >
+              LinkedIn
+            </a>
+          </span>
+        </div>
+        <div>
+          <span className="bg-purple rounded shadow-lg m-1 p-2">
+            <FontAwesomeIcon icon={faTwitter} />{" "}
+            <a
+              href="https://twitter.com/tweetingcynical"
+              className="text-light text-decoration-none"
+            >
+              Twitter
+            </a>
+          </span>
+        </div>
       </div>
     </div>
   );

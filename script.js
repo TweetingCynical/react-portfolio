@@ -1,4 +1,5 @@
-//
+// Standard api call for us in ordinary html
+// Need to convert to React in order to use with Cards at a later stage
 let repos;
 const url =
   "https://api.github.com/search/repositories?q=TweetingCynical+in:name";
